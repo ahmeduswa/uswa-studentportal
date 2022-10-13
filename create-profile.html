@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Profile</title>
+    <link rel="icon" type="image/x-icon" href="Asset 2.png">
+</head>
+<body>
+    <a href="index.html">
+        <img
+            src="Asset 1.png"
+            alt="Salite College logo"
+            style="width:500px;height:75px;">
+    </a>
+    <hr>
+    <div>
+        <a href="index.html" target="_blank">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">STUDENT GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="view-performance.html" target="_blank">VIEW PERFORMANCE</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">CONTACT US</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">BLOG</a>
+    </div>
+    <div>
+        <p>
+            Get started and access your <span style="font-weight:bold">Student Profile</span> by submitting the information in the form below.
+            After you complete this form, you will be able to upload your Portfolio, view your progress, and leave comments on other Students' work.
+        </p>
+        <figure>
+        <img src="https://images.pexels.com/photos/5190683/pexels-photo-5190683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image of Shirts" style="width:400px;height:300px;">
+        <figcaption>Image reference: Pexels.com</figcaption>    
+    </figure>
+        <p>
+            To complete this form, you will need:
+            <ul>
+                <li>Username/Email Address</li>
+                <li>Current Period of Study i.e, Year 1-3</li>
+                <li>A brief introduction of at least 100 words</li>
+            </ul>
+        </p>
+    </div>
+    <form action="submission.html" method="SUBMIT">
+        <h3>Create Profile:</h3>
+        <section class="name">
+        <label for="Name">Name:</label>
+        <input
+        id="name"
+        name="name"
+        type="text"
+        required="required"
+        minlength="3"
+        maxlength="25">
+        </section>
+        <br>
+        <section>
+        <label for="email address">Email Address:</label>
+        <input
+            id="email address"
+            name="email address"
+            type="text"
+            required="required"
+            >
+ </section>
+            <br>
+            <section class="Year">
+        <label for="Year">Year:</label>
+        
+            <select name="Year" id="year">
+                <option value="year 1">Year 1</option>
+                <option value="year 2">Year 2</option>
+                <option value="year 3">Year 3</option>
+              </select>
+            </section>
+            <br>
+            <section class="Preference">
+            <span>What do you prefer?</span>
+                <input
+                type="checkbox" name="computer" id="MAC">
+                <label for="MAC"
+                value="MAC">Mac</label>
+                <input type="checkbox" name="computer" id="PC">
+                <label for="PC" value="PC">PC</label>
+                <br><br>
+                <section class="about yourself">
+                    <label for="about yourself">Tell us about yourself:</label>
+                <input
+                id="about yourself"
+                name="about yourself"
+                type="text"
+                minlength="100"
+                required="required"
+                style="width:500px;height:70px">
+                </section>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <hr>
+
+    <footer>Copyright &copy; 2022. All Rights Reserved. Salite College.
+    </footer>
+
+    
+</body>
+</html>
